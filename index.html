@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Time tracking dashboard</title>
-
-
-</head>
-<body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-
-</body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+    <article class="cardsContainers" id="card1">
+      <section class="userInfo">
+        <img src="./images/image-jeremy.png" alt="User Image" class="profile-icon" />
+        <span class="column-view">
+          <p>Report for</p>
+          <h3>Jeremy Robson</h3>
+        </span>
+      </section>
+      <span class="buttons">
+        <button class="btn-primary" type="button" id="btn-1">Daily</button>
+        <button class="btn-primary" type="button" id="btn-2">Weekly</button>
+        <button class="btn-primary" type="button" id="btn-3">Monthly</button>
+      </span>
+    </article>
+    <article class="cardsContainers" id="card2">
+      <section class="nestedContainer" id="card2Section">
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon" />
+        <h3 class="category">Work</h3>
+        <h3 class="timeline">32hrs</h3>
+        <p>Last Week-36hrs</p>
+      </section>
+    </article>
+    <article class="cardsContainers" id="card3">
+      <section class="nestedContainer" id="card3Section">
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon" />
+        <h3 class="category">Play</h3>
+        <h3 class="timeline">10hrs</h3>
+        <p>Last Week-8hrs</p>
+      </section>
+    </article>
+    <article class="cardsContainers" id="card4">
+      <section class="nestedContainer" id="card4Section">
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon" />
+        <h3 class="category">Study</h3>
+        <h3 class="timeline">4hrs</h3>
+        <p>Last Week-7hrs</p>
+      </section>
+    </article>
+    <article class="cardsContainers" id="card5">
+      <section class="nestedContainer" id="card5Section">
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon" />
+        <h3 class="category">Exercise</h3>
+        <h3 class="timeline">5hrs</h3>
+        <p>Last Week-5hrs</p>
+      </section>
+    </article>
+    <article class="cardsContainers" id="card6">
+      <section class="nestedContainer" id="card6Section">
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon"/>
+        <h3 class="category">Socials</h3>
+        <h3 class="timeline">5hrs</h3>
+        <p>Last Week-10hrs</p>
+      </section>
+    </article>
+    <article class="cardsContainers" id="card7">
+      <section class="nestedContainer" id="card7Section" >
+        <img src="./images/icon-ellipsis.svg" alt="elipses" class="dot-icon"/>
+        <h3 class="category">Self Care</h3>
+        <h3 class="timeline">2hrs</h3>
+        <p>Last Week-2hrs</p>
+      </section>
+    </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
