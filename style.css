@@ -292,10 +292,10 @@ main {
         margin-left: -1.3rem;
     }
     .timeline{
-        font-size: 16px;
+        font-size: 15px;
     }
     .nestedContainer p{
-        font-size: 10px;
+        font-size: 9px;
         left:10px;
         bottom:1rem;
     }
@@ -314,5 +314,10 @@ main {
     #card4{
         margin-left: -2.8rem;
     }
-
+    .timeline{
+        font-size: 24px;
+    }
+    .nestedContainer p{
+        font-size: 14px;
+    }
 }
